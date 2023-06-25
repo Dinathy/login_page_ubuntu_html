@@ -9,14 +9,24 @@
 }
  
 body {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: rgb(231, 231, 231);
+    overflow-y: hidden;
+}
+
+.bimage {
+    background-image: url(excalibur.png);
+    filter: blur(8px);
+    -webkit-filter: blur(6px);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
 }
  
 header {
@@ -40,7 +50,7 @@ header {
 .container {
     height: 600px;
     width: 500px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     box-shadow: 8px 8px 20px rgb(128, 128, 128);
     position: relative;
     overflow: hidden;
@@ -264,4 +274,3 @@ header {
         font-size: 19px;
     }
 }
-
