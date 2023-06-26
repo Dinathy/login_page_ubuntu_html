@@ -18,9 +18,8 @@ body {
 }
 
 .bimage {
-    background-image: url(excalibur.png);
+    background-image: url(gyIT3n.jpg);
     filter: blur(8px);
-    -webkit-filter: blur(6px);
     height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +38,7 @@ header {
 }
  
 .heading {
-    color: green;
+    color: rgb(0, 0, 0);
 }
  
 .title {
@@ -50,8 +49,8 @@ header {
 .container {
     height: 600px;
     width: 500px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 8px 8px 20px rgb(128, 128, 128);
+    background-color: rgb(38, 5, 75, .4);
+    border-radius: 15px 15px 15px 15px;
     position: relative;
     overflow: hidden;
 }
@@ -60,7 +59,7 @@ header {
     height: 60px;
     width: 300px;
     margin: 20px auto;
-    box-shadow: 10px 10px 30px rgb(254, 215, 188);
+    background-color: rgb(254, 215, 188);
     border-radius: 50px;
     display: flex;
     justify-content: space-around;
